@@ -54,6 +54,9 @@ body {
     height: 80vh;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-content {
@@ -178,9 +181,9 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
+    background: #74b44a;
     color: #F1F1F1;
-    border: 2px solid #666666;
+    border: 2px solid #74b44a;
 }
 
 .btn, .btn:visited  {
@@ -234,6 +237,7 @@ a:hover, a:active {
     font-family: 'Cabin', sans-serif;
     font-size: 18px;
     color: #F1F1F1;
+    text-shadow: -1px -1px #000;
     line-height: 1.5;
 }
 
